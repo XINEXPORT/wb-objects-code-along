@@ -9,8 +9,11 @@ function personName() {
     age: 29,
     location: 'Orem, UT',
   };
-  return; // Code here
+  return person.firstName; // Code here
 }
+
+let name = personName();
+console.log(name); // Code
 
 /// ////////////// PROBLEM 2 ////////////////////
 
