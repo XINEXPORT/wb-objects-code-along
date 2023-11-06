@@ -9,7 +9,7 @@ function personName() {
     age: 29,
     location: 'Orem, UT',
   };
-  return person.firstName; // Code here
+  return person.firstName;
 }
 
 let name = personName();
@@ -26,16 +26,19 @@ function personLocation() {
     age: 29,
     location: 'Orem, UT',
   };
-  return; // Code Here
+  return person.location; 
 }
+
+let person = personLocation();
+console.log(person.location); 
 
 /// ////////////// PROBLEM 3 ////////////////////
 
 //Use dot notation to add a new property to the object backpack called frontPocket with the value equal to "compass".
 
-const backpack = {};
-
-// Code Here
+const backpack = {
+  frontPocket: 'compass',
+};
 
 /// ////////////// PROBLEM 4 ////////////////////
 
